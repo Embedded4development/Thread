@@ -6,6 +6,9 @@
 #include<stdbool.h>
 
 
+
+
+
 int data[10],dosignal=0;
 int nval=0,ndata=0;
 bool ready;
