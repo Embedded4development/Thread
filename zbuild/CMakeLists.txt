@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+SET(DIR_SRC ../src)
+INCLUDE(${DIR_SRC}/source.cmake)
+
+PROJECT(Thread)
+SET(DIR_DEPS ../deps)
+INCLUDE(${DIR_DEPS} ../deps.cmake)
+ADD_DEFINITIONS(-std=c++11)
+LINK_LIBRARIES(pthread)
+ADD_EXECUTABLE(Thread ${SRC_FILES})

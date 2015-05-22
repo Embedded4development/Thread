@@ -5,10 +5,6 @@
 #include<sys/times.h>
 #include<stdbool.h>
 
-
-
-
-
 int data[10],dosignal=0;
 int nval=0,ndata=0;
 bool ready;
@@ -73,7 +69,7 @@ pthread_create(&prod,NULL,&producer,NULL);
 printf("producer generated\n");
 sleep(1);
 pthread_create(&cons,NULL,&consumer,NULL);
-
+printf("Consumer generated\n");
 
 pthread_join(prod,NULL);
 pthread_join(cons,NULL);

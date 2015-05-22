@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/Thread.dir/home/radix/backup/Int/Thread/src/my_first.c.o CMakeFiles/Thread.dir/home/radix/backup/Int/Thread/src/Lock/Mutex.c.o  -o Thread -rdynamic -lpthread 

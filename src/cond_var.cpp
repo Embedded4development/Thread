@@ -1,3 +1,4 @@
+/*
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -97,3 +98,4 @@ int main(int argc, char *argv[])
   pthread_join(proThrHanle,NULL);
   pthread_join(conThrHandle,NULL);
 }
+*/
